@@ -6,8 +6,7 @@
     "build": "tsc",
     "watch": "tsc -w",
     "prestart": "npm run build",
-    "start": "func start",
-    "test": "jest"
+    "start": "func start"
   },
   "dependencies": {
     "@line/bot-sdk": "^7.4.0",
