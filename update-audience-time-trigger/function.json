@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "UpdateAudienceTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 30 15 1,15 * *"
+    }
+  ],
+  "scriptFile": "../dist/update-audience-time-trigger/index.js"
+}

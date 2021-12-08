@@ -1,0 +1,11 @@
+{
+  "bindings": [
+    {
+      "name": "myTimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 0 15 1,15 * *"
+    }
+  ],
+  "scriptFile": "../dist/update-employees-time-trigger/index.js"
+}
