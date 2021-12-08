@@ -22,7 +22,7 @@ export class DBProvider {
       database: process.env.DB_NAME,
       username: process.env.DB_USER,
       password: process.env.DB_PASSWORD,
-      synchronize: true,
+      synchronize: false,
       entities: [Employee, Audience, Identity],
     });
     return connection;
