@@ -41,4 +41,4 @@ jobs:
           app-name: 'hr-ccs-batch-update-qa-2'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_204926418AAF4DFC8E17B86482EF795F }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C961686AB3E542B1845F1DFDCA62217B }}
